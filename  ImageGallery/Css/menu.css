@@ -1,0 +1,57 @@
+#header {
+    margin: 0;
+    padding: 0;
+    background-color:tomato;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+    width: 100%;
+}
+
+.navbar {
+    height: 50%;
+    font-size: 16px;
+    color:tomato;
+}
+
+
+.padding {
+    margin-bottom: 20px;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 50%;
+}
+
+.li {
+    cursor: pointer;
+    height: 50%;
+    list-style: none;
+    float: left;
+    padding: 18.5px 25px;
+}
+
+.a {
+    font-family:comic sans MS;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color:white;
+}
+.menu  {
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    height: 50%;
+}
+
+
+a:hover {
+    color:tomato;
+}
+
+* {
+    box-sizing: border-box;
+}

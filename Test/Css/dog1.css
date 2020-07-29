@@ -1,0 +1,38 @@
+
+
+h1 {
+    color:tomato;
+    text-align: center;
+}
+img.cangiua{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    text-align: center;
+}
+h4 {
+    color: darkred;
+}
+b {
+    color: darkblue;
+}
+
+body {
+    font-family: comic sans MS;
+        background-color: antiquewhite;
+        overflow-x: hidden;
+    }
+    #backtotop{
+    
+        position: absolute;
+        bottom: 10%;
+        right: 5%;
+        }
+        .loading{
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            border-radius: 10%;
+        }

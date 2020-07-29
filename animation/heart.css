@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.heartbeat {
+  width: 40%;
+  margin: auto;
+  margin-top: 0px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  animation: drawheart 1.5s ease infinite;
+}
+
+@keyframes drawheart {
+  90% {
+      transform: scale(.8, .8)
+  }
+  100% {
+      transform: scale(1, 1)
+  }
+}
+
+.heart {
+  background-color:#fab1a0;
+  width: 200px;
+  height: 200px;
+}
+
+.elipheart{
+  display: flex;
+}
+
+.right {
+  border-radius: 50%;
+  transform: translate(-23%);
+}
+
+.left {
+  border-radius: 50%;
+  transform: translate(23%);
+}
+
+.bottom {
+  border-top-left-radius: 20%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  position: absolute;
+  transform: translateY(27%) rotate(45deg);
+}

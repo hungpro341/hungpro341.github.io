@@ -1,0 +1,95 @@
+.wrap {
+    background-color: #19212b;
+    margin: auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.content {
+    border: 1px solid #19212b;
+    /* con trỏ chuột */
+    cursor: pointer;
+    background-color:#19212b ;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+img {
+    width: 100%;
+    padding: 5px;
+    transition: all ease-in-out;
+}
+
+.img {
+    overflow: hidden;
+    width: 33.33333%;
+    position: relative;
+}
+
+.img:hover img {
+    transform: scale(1.2);
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+.top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.shadow {
+    width: 33.333333%;
+    background-color: #19212b;
+    -moz-box-shadow: -3px -3px 5px 0px #666;
+    -webkit-box-shadow: -3px -3px 5px 0px #666;
+    box-shadow: -3px -3px 5px 0px #666
+}
+
+#backtotop{
+    
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    }
+    .loading{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        border-radius: 10%;
+    }
+
+    footer {
+        padding-top: 10px;
+        clear: both;
+        text-align: center;
+        color: white;
+        
+    }
+
+
+
+    

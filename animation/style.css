@@ -1,0 +1,70 @@
+.content {
+    border: 1px solid #1289A7;
+    /* con trỏ chuột */
+    cursor: pointer;
+    background-color:#1289A7;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+}
+
+.wrap {
+    background-color: #1289A7;
+    margin: auto;
+    padding: 0;
+    max-width: 400px;;
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+img {
+    width: 100%;
+    border: 3px solid white;
+}
+
+.img {
+    
+    width: 33.33333%;
+    transition: all ease-in-out 0.3s;
+    }
+
+.img:hover img {
+    transform: scale(1.5);
+    z-index: 1;
+    transition: all ease-in-out 0.3s; 
+}
+
+
+
+.top {
+    position: fixed;
+    right: 50px;
+    bottom: 500px;
+}
+
+
+
+
+
+body{
+    font-family: comic sans MS;
+    font-size: 15px;
+    background-color: #1289A7 ;
+    height: 1000px;
+    margin: auto;
+    overflow-x:hidden;
+
+    
+    }
+    *{
+        box-sizing: border-box;
+    }

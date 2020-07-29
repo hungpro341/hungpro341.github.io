@@ -1,0 +1,62 @@
+body{
+font-family: comic sans MS;
+font-size: 15px;
+background-color: #19212b;
+height: 1000px;
+margin: auto;
+overflow-x:hidden;
+
+}
+
+.mainmenu {
+    
+    width: 200px;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 50%;
+    display: flex;
+
+}
+
+
+
+#banner {
+    max-width: 100%;
+}
+
+#mainmenu ul{ 
+
+background: red;
+width: 150px;
+padding: 0;
+list-style-type: none;
+text-align: left;
+float: left;
+}
+#mainmenu li {
+width: auto;
+height: 40px;
+border-bottom: 15px solid #19212b  ;
+padding: 0 1em;
+}
+#mainmenu li a{ 
+text-decoration: none;
+color:white;
+font-weight: bold;
+display: block;
+}
+#mainmenu li:hover{
+    background-color:darkred;
+    }
+
+#mainmenu ul li {
+position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+

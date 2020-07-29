@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: auto;
+    padding: auto;
+    overflow-x: hidden;
+    background-color: #dfe4ea;
+}
+
+h1 {
+    text-align: center;
+    font-family:  fantasy;
+    color: #1e272e;
+    font-size: 70px;
+}
+
+img {
+    max-width: 100%;
+}
+.pic1 {
+    margin: 0;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #487eb0;
+}
+
+blockquote {
+    font-size: 14px;
+    line-height: 2.2;
+    border-left: solid 3px #1e272e;
+    padding-left: 15px;
+
+}
+p {
+    line-height: 2.2;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrap {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    background:#1e272e;
+    font-size: 14px;
+    }
+    
+    .main-footer {
+        background: #1e272e;
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        padding: 20px;
+        display: block;
+    }
+    
+    .follow-icon {
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 5px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icon {
+        width: 40px;
+        height: 40px;
+        background-color:#636e72;
+        float: left;
+        margin-right: 3px;
+        text-align: center;
+        transition: 0.4s;
+    }
+    
+    .icon i {
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .gmail {
+        background-color:#636e72;
+    }
+    
+    .youtube {
+        background-color:#636e72;
+        margin-right: 0px;
+    }
+        
