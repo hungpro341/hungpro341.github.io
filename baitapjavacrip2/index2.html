@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai tap javacrip2</title>
+</head>
+
+<body>
+    <script>
+        var hungdz = [{
+            name: "Trương Minh Thúy",
+            age: 266,
+            email: 'support@techmaster.vn',
+            isStatus: true
+        },
+        hungpro = {
+            name: "Trương  Thúy",
+            age: 475,
+            email: 'support',
+            isStatus: true
+        },
+        hungnguyen = {
+            name: "Minh Thúy",
+            age: 244,
+            email: 'support@techmaster.vn',
+            isStatus: true
+        }]
+        // //bai1_Viết hàm tính thể tích hình cầu, với tham số truyền vào là bán kính của hình cầu.
+        // function hinh_cau(r) {
+        //     let v
+        //     v = 4 / 3 * (Math.PI * r * r * r)
+        //     return v
+        // }
+        // console.log(hinh_cau(10))
+
+        //bai2_Viết hàm truyền vào 2 số nguyên, tính tổng tất cả các số nguyên nằm giữa chúng. Ví dụ với tham số 3 và 8 ta có kết quả là 22 (bằng 4 + 5 + 6 + 7).
+
+        // function so_nguyen(a,b) {
+        //     let max = a
+        //     if (max<b) {
+        //     max = b 
+        //     }
+
+        //     let min = a
+        //     if (min>b) {
+        //         min = b
+        //     }
+
+        //     let  sum = 0
+        //     for (i = min +1 ; i < max -1; i++){
+        //         sum+= i 
+        //     }
+        //     return sum 
+        // }
+        // console.log(so_nguyen(10,18))
+
+        //bai3_ Cho 1 số, kiểm tra xem số đó có phải là số nguyên tố hay không, kết quả trả về true hoặc false
+
+        // function so_nguyen_to(a) {
+        //     let b = true
+        //     if (a < 2) {
+        //         b = false
+        //     }
+        //     for (let i = 2; i < a - 1; i++) {
+        //         if (a % 2 == 0) {
+        //             b = false
+        //             break
+        //         }
+        //         else {
+        //             b = true
+        //         }
+        //     }
+        //     return b
+        // }
+        // console.log(so_nguyen_to(10))
+
+        //bai4_Cho 1 số nguyên dương bất kỳ. Tính tổng tất cả các số nguyên tố mà nhỏ hơn hoặc bằng tham số truyền vào.
+
+        // function so_duong(a) {
+        //     let sum = 0
+        //     for (let i = 1; i <= a; i++) {
+        //         if (so_nguyen_to(i)) {
+        //             sum = sum + i
+        //         }
+        //     }
+        //     return sum
+        // }
+        // console.log(so_duong(10))
+
+        //bai5_ Cho 1 số nguyên dương, viết hàm tính tổng tất cả các ước số của số đó.
+
+        // function nguyen_duong(a) {
+        //     let sum = 0
+        //     for (let i = 1; i <= a; i++) {
+        //         if (a % i == 0) {
+        //             sum = sum + i
+        //         }
+        //     }
+        //     return sum
+
+        // }
+        // console.log(nguyen_duong(10))
+
+        ////////////////Xử lý Object//////////////
+        //1.. Viết hàm để lấy danh sách các key của object
+        // vd :
+        // var user = {
+        //     name : "Trương Minh Thúy",
+        //     age : 25,
+        //     email : 'support@techmaster.vn'
+        // };
+        // => name,age,email
+        // function danh_sach_key(a) {
+        //     return Object.keys(a)
+        // }
+        // console.log(danh_sach_key(hungdz))
+
+        //         2. Viết hàm để lấy danh sách các value của object
+        //         vd:
+        //         var user = {
+        //             name: "Trương Minh Thúy",
+        //             age: 25,
+        //             email: 'support@techmaster.vn'
+        //         };
+        // => 'Trương Minh Thúy', 25, 'support@techmaster.vn'
+
+        // function danh_sach_value(b) {
+        //     return Object.values(b)
+        // }
+        // console.log(danh_sach_value(hungdz))
+
+        //         3. Viết hàm kiểm tra key có tồn tại trong Object không
+        //         vd:
+        // var user = {
+        //     name: "Trương Minh Thúy",
+        //     age: 25,
+        //     email: 'support@techmaster.vn'
+        // };
+        // => checkKey('name') => true
+        //         checkKey('study') => false
+
+        // function ton_tai(element, object) {
+        //     return Object.keys(object).includes(element)
+        // }
+        // console.log(ton_tai('name', user))
+
+
+
+        //         4. Viết hàm kiểm tra Object có độ dài bao nhiêu
+        //         vd:
+        //         var user = {
+        //             name: "Trương Minh Thúy",
+        //             age: 25,
+        //             email: 'support@techmaster.vn'
+        //         };
+        // => getLengthObject(user) => 3
+
+
+        // function tim_kiem(a) {
+        //     return Object.keys(a).length
+        // }
+        // console.log(tim_kiem(hungdz))
+
+
+        // 5. Cho mảng các user
+        // mỗi object có cấu trúc như sau
+        // user = {
+        //     name: string,
+        //     age: number,
+        //     isStatus: bool
+        // }
+
+        // Viết function lấy ra những user có tuổi > 25 và isStatus = true
+
+
+        // function tim_kiem2(a) {
+        //     let tuoi = []
+        //     for (let i = 0; i < a.length; i++) {
+        //         if (a[i].age > 25 && a[i].isStatus == true) {
+        //             tuoi.push(a[i])
+        //         }
+        //     }
+        //     return tuoi
+        // }
+        // console.log(tim_kiem2(hungdz))
+
+
+        // 6. Tương tự bài 5
+        // Viết function sắp xếp các user theo tuổi tăng dần
+
+        function sap_xep(b) {
+            return b.sort((a,b)=>a.age - b.age)
+            }
+            console.log (sap_xep(hungdz))
+                
+            
+            
+
+        
+
+    </script>
+</body>
+
+</html>
